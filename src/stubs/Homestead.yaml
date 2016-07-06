@@ -11,34 +11,21 @@ keys:
 
 folders:
     - map: C:\Users\andy_\Gecko\Repos
-      to: /home/vagrant/Git
+      to: /home/vagrant/git
 
 sites:
     - map: geckoform.app
-      to: /home/vagrant/Git/Gecko-Web/
-      
+      to: /home/vagrant/git/Gecko-Web/
+
     - map: api.geckoform.app
-      to: /home/vagrant/Git/Gecko-API/public/
-      
+      to: /home/vagrant/git/Gecko-API/public/
+
     - map: public.geckoform.app
-      to: /home/vagrant/Git/Gecko-Public/public/
-     
+      to: /home/vagrant/git/Gecko-Public/public/
+
 databases:
     - homestead
-    
+
 variables:
     - key: APP_ENV
       value: local
-
-# blackfire:
-#     - id: foo
-#       token: bar
-#       client-id: foo
-#       client-token: bar
-
-# ports:
-#     - send: 50000
-#       to: 5000
-#     - send: 7777
-#       to: 777
-#       protocol: udp
