@@ -10,15 +10,25 @@ keys:
     - ~/.ssh/id_rsa
 
 folders:
-    - map: ~/Code
-      to: /home/vagrant/Code
+    - map: C:\Users\andy_\Gecko\Repos
+      to: /home/vagrant/Git
 
 sites:
-    - map: homestead.app
-      to: /home/vagrant/Code/Laravel/public
-
+    - map: geckoform.app
+      to: /home/vagrant/Git/Gecko-Web/
+      
+    - map: api.geckoform.app
+      to: /home/vagrant/Git/Gecko-API/public/
+      
+    - map: public.geckoform.app
+      to: /home/vagrant/Git/Gecko-Public/public/
+     
 databases:
     - homestead
+    
+variables:
+    - key: APP_ENV
+      value: local
 
 # blackfire:
 #     - id: foo
