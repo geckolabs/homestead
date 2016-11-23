@@ -23,6 +23,8 @@ sites:
       to: /home/vagrant/git/gecko-api/public
     - map: geckoform.app
       to: /home/vagrant/git/gecko-web/
+    - map: geckoform-build.app
+      to: /home/vagrant/git/gecko-web-build/
     - map: public.geckoform.app
       to: /home/vagrant/git/gecko-Public/public/
     - map: lp-eu.geckoform.app
