@@ -29,6 +29,16 @@ sites:
       to: /home/vagrant/git/gecko-Public/public/
     - map: lp-eu.geckoform.app
       to: /home/vagrant/git/gecko-Public/public/
+    - map: api.geckoform.test
+      to: /home/vagrant/git/gecko-api/public
+    - map: geckoform.test
+      to: /home/vagrant/git/gecko-web/
+    - map: geckoform-build.test
+      to: /home/vagrant/git/gecko-web-build/
+    - map: public.geckoform.test
+      to: /home/vagrant/git/gecko-Public/public/
+    - map: lp-eu.geckoform.test
+      to: /home/vagrant/git/gecko-Public/public/
 
 databases:
     - homestead
